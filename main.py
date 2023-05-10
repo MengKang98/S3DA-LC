@@ -29,10 +29,7 @@ def main():
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
     torch.cuda.manual_seed_all(args.seed)
-
-    os.environ["TZ"] = "Asia/Shanghai"
-    time.tzset()
-
+    
     Trainer(args, Utility(args)).train()
 
 
