@@ -1,4 +1,4 @@
- # Alleviating Imbalanced Pseudo-label Distribution: Self-Supervised Multi-Source Domain Adaptation with Label-specific Confidence (Submitted to NeurIPS 2023)
+ # Alleviating Imbalanced Pseudo-label Distribution: Self-Supervised Multi-Source Domain Adaptation with Label-specific Confidence (Submitted to IJCAI 2024)
 
 ## Official implementation for **S3DA-LC** (Based on [SImpAl](https://sites.google.com/view/simpal))
 
