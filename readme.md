@@ -1,4 +1,4 @@
- # Alleviating Imbalanced Pseudo-label Distribution: Self-Supervised Multi-Source Domain Adaptation with Label-specific Confidence (Submitted to IJCAI 2024)
+ # Alleviating Imbalanced Pseudo-label Distribution: Self-Supervised Multi-Source Domain Adaptation with Label-specific Confidence
 
 ## Official implementation for **S3DA-LC** (Based on [SImpAl](https://sites.google.com/view/simpal))
 
@@ -11,6 +11,11 @@
 
 ### Training:
     python main.py --dataset office-31 --task DW_A --tau 0.9 --UTF 1.5 --w_k 1
+
+### t-SNE visualization
+
+[after warm up](./t-sne/afterwarmup.pdf)   
+[after converge](./t-sne/convergence.pdf)
     
 ### Results on [Office-31](https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view):
  
